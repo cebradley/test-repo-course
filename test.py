@@ -1,5 +1,9 @@
 import numpy as np
 def area():
+	"""
+	A super awesome function no-one ever though of before
+	"""
+
 	r = float(input('What is the radius of the circle?'))
 	area = np.pi*r**2
 	print('The area of a circle with radius ' + str(r) + ' is: ' + str(round(area,2))) 
